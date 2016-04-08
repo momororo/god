@@ -1,0 +1,23 @@
+<Solution>
+  <PropertyGroup Name="Gachaunn" Version="3.10.0.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Folder Name="MainScene">
+          <Image Name="configuration.png" />
+          <Image Name="decideBt.png" />
+          <Image Name="decideBt_tapped.png" />
+          <Image Name="haikei.png" />
+          <Image Name="hermit.png" />
+          <Image Name="prayBt.png" />
+          <Image Name="prayBt_tapped.png" />
+          <Image Name="quitBt.png" />
+          <Image Name="quiteBt_tapped.png" />
+          <Image Name="settingBt.png" />
+          <Image Name="settingBt_tapped.png" />
+        </Folder>
+        <Project Name="MainScene.csd" Type="Scene" />
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>

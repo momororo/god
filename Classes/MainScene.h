@@ -3,7 +3,12 @@
 
 #include "cocos2d.h"
 #include "extensions/cocos-ext.h"
+#include "cocostudio/CocoStudio.h"
+//#include "ui/CocosGUI.h"
+
 using namespace cocos2d::ui;
+using namespace cocostudio;
+using namespace timeline;
 
 class MainScene : public cocos2d::Layer, public EditBoxDelegate
 {
@@ -41,6 +46,9 @@ public:
     
     //returnを押したら実行される
     virtual void editBoxReturn(EditBox* editBox);
+    
+    //各種ボタン設定
+    void makeButton();
     
 };
 

@@ -11,6 +11,8 @@
           <Image Name="hermit.png" />
           <Image Name="prayBt.png" />
           <Image Name="prayBt_tapped.png" />
+          <Image Name="progressbar.png" />
+          <Image Name="progressbar_base.png" />
           <Image Name="quitBt.png" />
           <Image Name="quiteBt_tapped.png" />
           <Image Name="settingBt.png" />

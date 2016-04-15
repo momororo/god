@@ -64,13 +64,13 @@
 		521A8EAA19F11F5000D177D7 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 521A8EA819F11F5000D177D7 /* fonts */; };
 		52B47A471A53D09C004E4C60 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B47A461A53D09B004E4C60 /* Security.framework */; };
 		8262943E1AAF051F00CB7CF7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8262943D1AAF051F00CB7CF7 /* Security.framework */; };
-		A47608DA1CB7A928006DD3B7 /* MainScene in Resources */ = {isa = PBXBuildFile; fileRef = A47608D81CB7A928006DD3B7 /* MainScene */; };
-		A47608DB1CB7A928006DD3B7 /* MainScene.csb in Resources */ = {isa = PBXBuildFile; fileRef = A47608D91CB7A928006DD3B7 /* MainScene.csb */; };
-		A47608E11CB7A936006DD3B7 /* cocosstudio in Resources */ = {isa = PBXBuildFile; fileRef = A47608DC1CB7A936006DD3B7 /* cocosstudio */; };
-		A47608E21CB7A936006DD3B7 /* config.json in Resources */ = {isa = PBXBuildFile; fileRef = A47608DD1CB7A936006DD3B7 /* config.json */; };
-		A47608E31CB7A936006DD3B7 /* Gachaunn.ccs in Resources */ = {isa = PBXBuildFile; fileRef = A47608DE1CB7A936006DD3B7 /* Gachaunn.ccs */; };
-		A47608E41CB7A936006DD3B7 /* Gachaunn.cfg in Resources */ = {isa = PBXBuildFile; fileRef = A47608DF1CB7A936006DD3B7 /* Gachaunn.cfg */; };
-		A47608E51CB7A936006DD3B7 /* Gachaunn.udf in Resources */ = {isa = PBXBuildFile; fileRef = A47608E01CB7A936006DD3B7 /* Gachaunn.udf */; };
+		A45FF9601CB8E4AE00EC9AE7 /* MainScene in Resources */ = {isa = PBXBuildFile; fileRef = A45FF95E1CB8E4AE00EC9AE7 /* MainScene */; };
+		A45FF9611CB8E4AE00EC9AE7 /* MainScene.csb in Resources */ = {isa = PBXBuildFile; fileRef = A45FF95F1CB8E4AE00EC9AE7 /* MainScene.csb */; };
+		A45FF9671CB8E65B00EC9AE7 /* cocosstudio in Resources */ = {isa = PBXBuildFile; fileRef = A45FF9621CB8E65B00EC9AE7 /* cocosstudio */; };
+		A45FF9681CB8E65B00EC9AE7 /* config.json in Resources */ = {isa = PBXBuildFile; fileRef = A45FF9631CB8E65B00EC9AE7 /* config.json */; };
+		A45FF9691CB8E65B00EC9AE7 /* Gachaunn.ccs in Resources */ = {isa = PBXBuildFile; fileRef = A45FF9641CB8E65B00EC9AE7 /* Gachaunn.ccs */; };
+		A45FF96A1CB8E65B00EC9AE7 /* Gachaunn.cfg in Resources */ = {isa = PBXBuildFile; fileRef = A45FF9651CB8E65B00EC9AE7 /* Gachaunn.cfg */; };
+		A45FF96B1CB8E65B00EC9AE7 /* Gachaunn.udf in Resources */ = {isa = PBXBuildFile; fileRef = A45FF9661CB8E65B00EC9AE7 /* Gachaunn.udf */; };
 		A47608E71CB7AA71006DD3B7 /* frameMemo.numbers in Resources */ = {isa = PBXBuildFile; fileRef = A47608E61CB7AA71006DD3B7 /* frameMemo.numbers */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
@@ -172,13 +172,13 @@
 		521A8EA819F11F5000D177D7 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
 		52B47A461A53D09B004E4C60 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.1.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		8262943D1AAF051F00CB7CF7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		A47608D81CB7A928006DD3B7 /* MainScene */ = {isa = PBXFileReference; lastKnownFileType = folder; path = MainScene; sourceTree = "<group>"; };
-		A47608D91CB7A928006DD3B7 /* MainScene.csb */ = {isa = PBXFileReference; lastKnownFileType = file; path = MainScene.csb; sourceTree = "<group>"; };
-		A47608DC1CB7A936006DD3B7 /* cocosstudio */ = {isa = PBXFileReference; lastKnownFileType = folder; path = cocosstudio; sourceTree = "<group>"; };
-		A47608DD1CB7A936006DD3B7 /* config.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = config.json; sourceTree = "<group>"; };
-		A47608DE1CB7A936006DD3B7 /* Gachaunn.ccs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Gachaunn.ccs; sourceTree = "<group>"; };
-		A47608DF1CB7A936006DD3B7 /* Gachaunn.cfg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Gachaunn.cfg; sourceTree = "<group>"; };
-		A47608E01CB7A936006DD3B7 /* Gachaunn.udf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Gachaunn.udf; sourceTree = "<group>"; };
+		A45FF95E1CB8E4AE00EC9AE7 /* MainScene */ = {isa = PBXFileReference; lastKnownFileType = folder; path = MainScene; sourceTree = "<group>"; };
+		A45FF95F1CB8E4AE00EC9AE7 /* MainScene.csb */ = {isa = PBXFileReference; lastKnownFileType = file; path = MainScene.csb; sourceTree = "<group>"; };
+		A45FF9621CB8E65B00EC9AE7 /* cocosstudio */ = {isa = PBXFileReference; lastKnownFileType = folder; name = cocosstudio; path = ../cocosstudio; sourceTree = "<group>"; };
+		A45FF9631CB8E65B00EC9AE7 /* config.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = config.json; path = ../config.json; sourceTree = "<group>"; };
+		A45FF9641CB8E65B00EC9AE7 /* Gachaunn.ccs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Gachaunn.ccs; path = ../Gachaunn.ccs; sourceTree = "<group>"; };
+		A45FF9651CB8E65B00EC9AE7 /* Gachaunn.cfg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Gachaunn.cfg; path = ../Gachaunn.cfg; sourceTree = "<group>"; };
+		A45FF9661CB8E65B00EC9AE7 /* Gachaunn.udf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Gachaunn.udf; path = ../Gachaunn.udf; sourceTree = "<group>"; };
 		A47608E61CB7AA71006DD3B7 /* frameMemo.numbers */ = {isa = PBXFileReference; lastKnownFileType = file; path = frameMemo.numbers; sourceTree = "<group>"; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
@@ -272,16 +272,16 @@
 			children = (
 				46880B8319C43A87006E1F66 /* Classes */,
 				46880B7519C43A67006E1F66 /* Resources */,
-				A47608DC1CB7A936006DD3B7 /* cocosstudio */,
-				A47608DD1CB7A936006DD3B7 /* config.json */,
-				A47608DE1CB7A936006DD3B7 /* Gachaunn.ccs */,
-				A47608DF1CB7A936006DD3B7 /* Gachaunn.cfg */,
-				A47608E01CB7A936006DD3B7 /* Gachaunn.udf */,
 				1AC6FAE5180E9839004C840B /* cocos2d_libs.xcodeproj */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				080E96DDFE201D6D7F000001 /* ios */,
 				503AE10617EB990700D1A890 /* mac */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
+				A45FF9621CB8E65B00EC9AE7 /* cocosstudio */,
+				A45FF9631CB8E65B00EC9AE7 /* config.json */,
+				A45FF9641CB8E65B00EC9AE7 /* Gachaunn.ccs */,
+				A45FF9651CB8E65B00EC9AE7 /* Gachaunn.cfg */,
+				A45FF9661CB8E65B00EC9AE7 /* Gachaunn.udf */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -315,9 +315,9 @@
 		46880B7519C43A67006E1F66 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				A45FF95E1CB8E4AE00EC9AE7 /* MainScene */,
+				A45FF95F1CB8E4AE00EC9AE7 /* MainScene.csb */,
 				A47608E61CB7AA71006DD3B7 /* frameMemo.numbers */,
-				A47608D81CB7A928006DD3B7 /* MainScene */,
-				A47608D91CB7A928006DD3B7 /* MainScene.csb */,
 				521A8EA819F11F5000D177D7 /* fonts */,
 				3EACC98E19EE6D4300EB3C5E /* res */,
 				46880B7619C43A67006E1F66 /* CloseNormal.png */,
@@ -439,6 +439,11 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0730;
+				TargetAttributes = {
+					1D6058900D05DD3D006BFB54 = {
+						DevelopmentTeam = 674K9CNB9N;
+					};
+				};
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "god" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -490,41 +495,41 @@
 			files = (
 				5087E78117EB970100C73F5D /* Icon-120.png in Resources */,
 				5087E78617EB970100C73F5D /* Icon-76.png in Resources */,
-				A47608E21CB7A936006DD3B7 /* config.json in Resources */,
 				5087E77F17EB970100C73F5D /* Default@2x.png in Resources */,
 				50EF629917ECD46A001EB2F8 /* Icon-100.png in Resources */,
-				A47608DA1CB7A928006DD3B7 /* MainScene in Resources */,
-				A47608E51CB7A936006DD3B7 /* Gachaunn.udf in Resources */,
 				5087E78317EB970100C73F5D /* Icon-152.png in Resources */,
 				46880B8119C43A67006E1F66 /* HelloWorld.png in Resources */,
+				A45FF9671CB8E65B00EC9AE7 /* cocosstudio in Resources */,
+				A45FF9611CB8E4AE00EC9AE7 /* MainScene.csb in Resources */,
 				46880B7D19C43A67006E1F66 /* CloseSelected.png in Resources */,
 				5087E77D17EB970100C73F5D /* Default-568h@2x.png in Resources */,
 				5087E78517EB970100C73F5D /* Icon-72.png in Resources */,
-				A47608E41CB7A936006DD3B7 /* Gachaunn.cfg in Resources */,
 				521A8E6519F0C34300D177D7 /* Default-736h@3x.png in Resources */,
 				521A8EA919F11F5000D177D7 /* fonts in Resources */,
 				04AAF1B11CB79E5C00CBAEB2 /* config.png in Resources */,
 				50EF62A317ECD613001EB2F8 /* Icon-50.png in Resources */,
 				5087E78017EB970100C73F5D /* Icon-114.png in Resources */,
-				A47608E31CB7A936006DD3B7 /* Gachaunn.ccs in Resources */,
 				50EF62A217ECD613001EB2F8 /* Icon-29.png in Resources */,
 				50EF629617ECD46A001EB2F8 /* Icon-40.png in Resources */,
 				5087E78217EB970100C73F5D /* Icon-144.png in Resources */,
+				A45FF96A1CB8E65B00EC9AE7 /* Gachaunn.cfg in Resources */,
 				04AAF1B41CB79E5C00CBAEB2 /* input.png in Resources */,
 				3EACC98F19EE6D4300EB3C5E /* res in Resources */,
 				04AAF1B51CB79E5C00CBAEB2 /* pray.png in Resources */,
 				50EF629817ECD46A001EB2F8 /* Icon-80.png in Resources */,
 				5087E78417EB970100C73F5D /* Icon-57.png in Resources */,
 				5087E77E17EB970100C73F5D /* Default.png in Resources */,
-				A47608DB1CB7A928006DD3B7 /* MainScene.csb in Resources */,
 				521A8E6419F0C34300D177D7 /* Default-667h@2x.png in Resources */,
-				A47608E11CB7A936006DD3B7 /* cocosstudio in Resources */,
 				04AAF1B61CB79E5C00CBAEB2 /* set_config.png in Resources */,
+				A45FF9601CB8E4AE00EC9AE7 /* MainScene in Resources */,
 				A47608E71CB7AA71006DD3B7 /* frameMemo.numbers in Resources */,
 				04AAF1B31CB79E5C00CBAEB2 /* god.jpg in Resources */,
 				46880B7B19C43A67006E1F66 /* CloseNormal.png in Resources */,
 				04AAF1B21CB79E5C00CBAEB2 /* confirm.png in Resources */,
+				A45FF96B1CB8E65B00EC9AE7 /* Gachaunn.udf in Resources */,
 				50EF629717ECD46A001EB2F8 /* Icon-58.png in Resources */,
+				A45FF9691CB8E65B00EC9AE7 /* Gachaunn.ccs in Resources */,
+				A45FF9681CB8E65B00EC9AE7 /* config.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -585,6 +590,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COMPRESS_PNG_FILES = NO;
 				ENABLE_BITCODE = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -611,6 +617,7 @@
 					"$(_COCOS_LIB_IOS_END)",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = jp.sacrew.god;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "$(_COCOS_HEADER_IOS_BEGIN) $(_COCOS_HEADER_IOS_END)";
@@ -623,6 +630,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COMPRESS_PNG_FILES = NO;
 				ENABLE_BITCODE = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
@@ -647,6 +655,7 @@
 					"$(_COCOS_LIB_IOS_END)",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = jp.sacrew.god;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "$(_COCOS_HEADER_IOS_BEGIN) $(_COCOS_HEADER_IOS_END)";

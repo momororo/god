@@ -258,21 +258,21 @@
           <AbstractNodeData Name="haikei" CanEdit="False" ActionTag="477483548" Tag="4" IconVisible="False" ctype="SpriteObjectData">
             <Size X="640.0000" Y="1136.0000" />
             <Children>
-              <AbstractNodeData Name="hermit" ActionTag="1866859377" Tag="4" IconVisible="False" LeftMargin="25.7657" RightMargin="27.2343" TopMargin="554.8442" BottomMargin="-301.8442" ctype="SpriteObjectData">
+              <AbstractNodeData Name="hermit" ActionTag="1866859377" Tag="4" IconVisible="False" LeftMargin="25.7657" RightMargin="27.2343" TopMargin="1144.5000" BottomMargin="-891.5000" ctype="SpriteObjectData">
                 <Size X="587.0000" Y="883.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                <Position X="319.2657" Y="139.6558" />
+                <Position X="319.2657" Y="-450.0000" />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
                 <CColor A="255" R="255" G="255" B="255" />
-                <PrePosition X="0.4989" Y="0.1229" />
+                <PrePosition X="0.4989" Y="-0.3961" />
                 <PreSize X="0.9172" Y="0.7773" />
                 <FileData Type="Normal" Path="MainScene/hermit.png" Plist="" />
                 <BlendFunc Src="1" Dst="771" />
               </AbstractNodeData>
-              <AbstractNodeData Name="configuration" CanEdit="False" ActionTag="820928577" VisibleForFrame="False" Tag="5" IconVisible="False" LeftMargin="71.5000" RightMargin="71.5000" TopMargin="242.5000" BottomMargin="242.5000" ctype="SpriteObjectData">
+              <AbstractNodeData Name="configuration" ActionTag="820928577" VisibleForFrame="False" Tag="5" IconVisible="False" LeftMargin="71.5000" RightMargin="71.5000" TopMargin="242.5000" BottomMargin="242.5000" ctype="SpriteObjectData">
                 <Size X="497.0000" Y="651.0000" />
                 <Children>
-                  <AbstractNodeData Name="decideBt" CanEdit="False" ActionTag="850459370" Tag="9" IconVisible="False" PositionPercentXEnabled="True" LeftMargin="68.5000" RightMargin="68.5000" TopMargin="432.1743" BottomMargin="97.8257" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="330" Scale9Height="99" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+                  <AbstractNodeData Name="decideBt" ActionTag="850459370" Tag="9" IconVisible="False" PositionPercentXEnabled="True" LeftMargin="68.5000" RightMargin="68.5000" TopMargin="432.1743" BottomMargin="97.8257" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="330" Scale9Height="99" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
                     <Size X="360.0000" Y="121.0000" />
                     <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                     <Position X="248.5000" Y="158.3257" />
@@ -297,7 +297,7 @@
                 <FileData Type="Normal" Path="MainScene/configuration.png" Plist="" />
                 <BlendFunc Src="1" Dst="771" />
               </AbstractNodeData>
-              <AbstractNodeData Name="prayBt" CanEdit="False" ActionTag="-1972190442" VisibleForFrame="False" Tag="10" IconVisible="False" LeftMargin="39.0000" RightMargin="39.0000" TopMargin="335.5000" BottomMargin="335.5000" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="532" Scale9Height="443" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+              <AbstractNodeData Name="prayBt" ActionTag="-1972190442" VisibleForFrame="False" CallBackType="Touch" CallBackName="ended" Tag="10" FrameEvent="pray_tapped_action" IconVisible="False" LeftMargin="39.0000" RightMargin="39.0000" TopMargin="335.5000" BottomMargin="335.5000" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="532" Scale9Height="443" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
                 <Size X="562.0000" Y="465.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position X="320.0000" Y="568.0000" />
@@ -312,7 +312,7 @@
                 <OutlineColor A="255" R="255" G="0" B="0" />
                 <ShadowColor A="255" R="110" G="110" B="110" />
               </AbstractNodeData>
-              <AbstractNodeData Name="quiteBt" CanEdit="False" ActionTag="1526725688" VisibleForFrame="False" Tag="11" IconVisible="False" LeftMargin="53.5000" RightMargin="53.5000" TopMargin="713.0000" BottomMargin="77.0000" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="503" Scale9Height="324" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+              <AbstractNodeData Name="quiteBt" ActionTag="1526725688" VisibleForFrame="False" Tag="11" IconVisible="False" LeftMargin="53.5000" RightMargin="53.5000" TopMargin="713.0000" BottomMargin="77.0000" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="503" Scale9Height="324" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
                 <Size X="533.0000" Y="346.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position X="320.0000" Y="250.0000" />
@@ -327,7 +327,7 @@
                 <OutlineColor A="255" R="255" G="0" B="0" />
                 <ShadowColor A="255" R="110" G="110" B="110" />
               </AbstractNodeData>
-              <AbstractNodeData Name="settingBt" CanEdit="False" ActionTag="-757977966" VisibleForFrame="False" Tag="12" IconVisible="False" LeftMargin="-59.0000" RightMargin="281.0000" TopMargin="-54.5000" BottomMargin="869.5000" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="388" Scale9Height="299" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+              <AbstractNodeData Name="settingBt" ActionTag="-757977966" Tag="12" IconVisible="False" LeftMargin="-59.0000" RightMargin="281.0000" TopMargin="-54.5000" BottomMargin="869.5000" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="388" Scale9Height="299" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
                 <Size X="418.0000" Y="321.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position X="150.0000" Y="1030.0000" />
@@ -342,7 +342,7 @@
                 <OutlineColor A="255" R="255" G="0" B="0" />
                 <ShadowColor A="255" R="110" G="110" B="110" />
               </AbstractNodeData>
-              <AbstractNodeData Name="hermit_right" ActionTag="895899054" Tag="13" RotationSkewX="-90.0000" RotationSkewY="-90.0000" IconVisible="False" LeftMargin="791.5004" RightMargin="-738.5004" TopMargin="135.0695" BottomMargin="117.9305" ctype="SpriteObjectData">
+              <AbstractNodeData Name="hermit_right" CanEdit="False" ActionTag="895899054" Tag="13" RotationSkewX="-90.0000" RotationSkewY="-90.0000" IconVisible="False" LeftMargin="791.5004" RightMargin="-738.5004" TopMargin="135.0695" BottomMargin="117.9305" ctype="SpriteObjectData">
                 <Size X="587.0000" Y="883.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position X="1085.0004" Y="559.4305" />
@@ -353,7 +353,7 @@
                 <FileData Type="Normal" Path="MainScene/hermit.png" Plist="" />
                 <BlendFunc Src="1" Dst="771" />
               </AbstractNodeData>
-              <AbstractNodeData Name="hermit_left" ActionTag="-1213362471" Tag="14" RotationSkewX="90.0000" RotationSkewY="90.0000" IconVisible="False" LeftMargin="-743.5000" RightMargin="796.5000" TopMargin="135.0700" BottomMargin="117.9300" ctype="SpriteObjectData">
+              <AbstractNodeData Name="hermit_left" CanEdit="False" ActionTag="-1213362471" Tag="14" RotationSkewX="90.0000" RotationSkewY="90.0000" IconVisible="False" LeftMargin="-743.5000" RightMargin="796.5000" TopMargin="135.0700" BottomMargin="117.9300" ctype="SpriteObjectData">
                 <Size X="587.0000" Y="883.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position X="-450.0000" Y="559.4300" />
@@ -364,7 +364,7 @@
                 <FileData Type="Normal" Path="MainScene/hermit.png" Plist="" />
                 <BlendFunc Src="1" Dst="771" />
               </AbstractNodeData>
-              <AbstractNodeData Name="hermit_lowerLeft" ActionTag="-133322005" Tag="15" RotationSkewX="45.0012" RotationSkewY="44.9988" IconVisible="False" LeftMargin="-648.0100" RightMargin="701.0100" TopMargin="837.5707" BottomMargin="-584.5707" ctype="SpriteObjectData">
+              <AbstractNodeData Name="hermit_lowerLeft" CanEdit="False" ActionTag="-133322005" Tag="15" RotationSkewX="45.0012" RotationSkewY="44.9988" IconVisible="False" LeftMargin="-648.0100" RightMargin="701.0100" TopMargin="837.5707" BottomMargin="-584.5707" ctype="SpriteObjectData">
                 <Size X="587.0000" Y="883.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position X="-354.5100" Y="-143.0707" />
@@ -375,7 +375,7 @@
                 <FileData Type="Normal" Path="MainScene/hermit.png" Plist="" />
                 <BlendFunc Src="1" Dst="771" />
               </AbstractNodeData>
-              <AbstractNodeData Name="hermit_lowerRight" ActionTag="-368876829" Tag="16" RotationSkewX="-44.9988" RotationSkewY="-48.6046" IconVisible="False" LeftMargin="706.5062" RightMargin="-653.5062" TopMargin="837.5678" BottomMargin="-584.5678" ctype="SpriteObjectData">
+              <AbstractNodeData Name="hermit_lowerRight" CanEdit="False" ActionTag="-368876829" Tag="16" RotationSkewX="-44.9988" RotationSkewY="-48.6046" IconVisible="False" LeftMargin="706.5062" RightMargin="-653.5062" TopMargin="837.5678" BottomMargin="-584.5678" ctype="SpriteObjectData">
                 <Size X="587.0000" Y="883.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position X="1000.0062" Y="-143.0678" />
@@ -385,6 +385,62 @@
                 <PreSize X="0.9172" Y="0.7773" />
                 <FileData Type="Normal" Path="MainScene/hermit.png" Plist="" />
                 <BlendFunc Src="1" Dst="771" />
+              </AbstractNodeData>
+              <AbstractNodeData Name="expectedBar" ActionTag="-1139783784" VisibleForFrame="False" Tag="21" IconVisible="False" LeftMargin="102.0000" RightMargin="102.0000" TopMargin="169.2836" BottomMargin="938.7164" ProgressInfo="50" ctype="LoadingBarObjectData">
+                <Size X="436.0000" Y="28.0000" />
+                <Children>
+                  <AbstractNodeData Name="expectedBarFrame" ActionTag="1047638993" Tag="16" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="-43.0000" RightMargin="-43.0000" TopMargin="-2.0000" BottomMargin="-2.0000" ctype="SpriteObjectData">
+                    <Size X="522.0000" Y="32.0000" />
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="218.0000" Y="14.0000" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="0.5000" Y="0.5000" />
+                    <PreSize X="1.1972" Y="1.1429" />
+                    <FileData Type="Normal" Path="MainScene/progressbar_base.png" Plist="" />
+                    <BlendFunc Src="1" Dst="771" />
+                  </AbstractNodeData>
+                  <AbstractNodeData Name="expectedValueMax" ActionTag="1976605966" Tag="22" IconVisible="False" LeftMargin="373.5000" RightMargin="-0.5000" TopMargin="33.5000" BottomMargin="-28.5000" FontSize="20" LabelText="/ 100%" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                    <Size X="63.0000" Y="23.0000" />
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="405.0000" Y="-17.0000" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="0" G="0" B="0" />
+                    <PrePosition X="0.9289" Y="-0.6071" />
+                    <PreSize X="0.1445" Y="0.8214" />
+                    <OutlineColor A="255" R="255" G="0" B="0" />
+                    <ShadowColor A="255" R="110" G="110" B="110" />
+                  </AbstractNodeData>
+                  <AbstractNodeData Name="expectedValue" ActionTag="-668216359" Tag="23" IconVisible="False" LeftMargin="325.4971" RightMargin="69.5029" TopMargin="33.5000" BottomMargin="-28.5000" FontSize="20" LabelText="50%" HorizontalAlignmentType="HT_Right" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                    <Size X="41.0000" Y="23.0000" />
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="345.9971" Y="-17.0000" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="0" G="0" B="0" />
+                    <PrePosition X="0.7936" Y="-0.6071" />
+                    <PreSize X="0.0940" Y="0.8214" />
+                    <OutlineColor A="255" R="255" G="0" B="0" />
+                    <ShadowColor A="255" R="110" G="110" B="110" />
+                  </AbstractNodeData>
+                </Children>
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <Position X="320.0000" Y="952.7164" />
+                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition X="0.5000" Y="0.8387" />
+                <PreSize X="0.6812" Y="0.0246" />
+                <ImageFileData Type="Normal" Path="MainScene/progressbar.png" Plist="" />
+              </AbstractNodeData>
+              <AbstractNodeData Name="titleLabel" ActionTag="379007741" Tag="17" IconVisible="False" LeftMargin="320.0000" RightMargin="320.0000" TopMargin="194.4839" BottomMargin="941.5161" FontSize="72" LabelText="" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                <Size X="0.0000" Y="0.0000" />
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <Position X="320.0000" Y="941.5161" />
+                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <CColor A="255" R="0" G="0" B="0" />
+                <PrePosition X="0.5000" Y="0.8288" />
+                <PreSize X="0.0000" Y="0.0000" />
+                <OutlineColor A="255" R="255" G="0" B="0" />
+                <ShadowColor A="255" R="110" G="110" B="110" />
               </AbstractNodeData>
             </Children>
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
